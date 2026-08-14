@@ -3,9 +3,8 @@ name: My first workflow
 on: push
 
 jobs:
-  say-hello: hey there
+  say-hello: 
   runs-on: ubuntu-latest
   steps:
     -name: print a message
     run: echo "Hello this is krishna chaitanya"
-    
